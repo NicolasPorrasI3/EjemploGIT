@@ -1,3 +1,5 @@
+# Archivo .gitignore para un proyecto de Python
+
 
 # Ignorar archivos compilados de Python
 __pycache__/

@@ -1,0 +1,50 @@
+# Archivo .gitignore para un proyecto de Python
+
+
+# Ignorar archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+venv.bak/
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Cachés y reportes de pruebas
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDEs y editores
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Variables de entorno y archivos de configuración locales
+.env
+.env.*
+.python-version
+
+# Archivos binarios y extensiones
+*.so
+*.dylib
+*.pyd
+
+# Otros
+*.log
